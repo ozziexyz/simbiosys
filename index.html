@@ -1,14 +1,37 @@
 <!DOCTYPE html>
 <html>
     <head>
-        
+        <title>Simbiosys</title>
+        <script src="lib/p5.js"></script>
+        <link rel="stylesheet" href="style.css">
     </head>
     <body>
-        <button id="pause">stop/start</button>
-        <div id="out">
-            <span id="time"></span>
-            <span id="beetle"></span>
+        <a href="README.md">about this game</a>
+        <div id="interface">
+            <div id="shop">
+                <span id="plant-tab">Plants</span>
+                <span id="animal-tab">Animals</span>
+                <div id="items">
+                    <div id="plant-items">
+
+                    </div>
+                    <div id="animal-items">
+
+                    </div>
+                </div>
+            </div>
+            <div id="view">
+            </div>
+            <div id="info">
+
+            </div>
         </div>
-        <script src="js/simulation.js" type="module"></script>
+        <script src="src/images.js"></script>
+        <script src="src/game.js"></script>
+        <script src="src/shop.js"></script>
+        <script src="src/input.js"></script>
+        <script src="src/info.js"></script>
+        <script src="src/pests.js"></script>
+        <script src="src/paint.js"></script>
     </body>
 </html>
